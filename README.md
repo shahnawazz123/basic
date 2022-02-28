@@ -1,4 +1,4 @@
 <p align="center">
-    <h1 align="center">Eyadat CMS</h1>
+    <h1 align="center">Basic</h1>
     <br>
 </p>
