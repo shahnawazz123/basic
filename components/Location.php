@@ -53,7 +53,7 @@ class Location implements BootstrapInterface
 
     private function getTimeZoneFromGoogle($cur_lat, $cur_long)
     {
-        $key = 'AIzaSyBsHlUBbkdYUS2yB6nnPMdybxMOlpHa1NU';
+        $key = 'key';
         $time = time();
         $url = 'https://maps.googleapis.com/maps/api/timezone/json?location=' . $cur_lat . ',' . $cur_long . '&key=' . $key . '&timestamp=' . $time;
         $curl = curl_init();
