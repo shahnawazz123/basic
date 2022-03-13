@@ -49,8 +49,8 @@ $config = [
             'transport' => [
                 'class' => 'Swift_SmtpTransport',
                 'host' => 'smtp.gmail.com',
-                'username' => 'mywebapp61@gmail.com',//'noreplyedayat@gmail.com',
-                'password' => 'qegtcmnrwahrookt',//'edayat@2021',
+                'username' => 'mailid',//'noreplyedayat@gmail.com',
+                'password' => 'password,//'edayat@2021',
                 'port' => '587',
                 'encryption' => 'tls',
                 'streamOptions' => [
@@ -88,8 +88,8 @@ $config = [
                 'facebook' => [
                     'class' => 'yii\authclient\clients\Facebook',
                     'authUrl' => 'https://www.facebook.com/dialog/oauth?display=popup',
-                    'clientId' => '1865339173767070',
-                    'clientSecret' => '68bc634b9f77cef2ae15bb8032ba2f58',
+                    'clientId' => 'clientid',
+                    'clientSecret' => 'clientsecret,
                     'attributeNames' => ['name', 'email', 'first_name', 'last_name', 'gender'],
                     'title' => 'Login'
                 ],
